@@ -1,0 +1,69 @@
+{
+  "lead_hours": 10,
+  "best_n_estimators": {
+    "speed": 600,
+    "gust": 600,
+    "dir_sin": 3000,
+    "dir_cos": 3000
+  },
+  "speed": {
+    "holdout_rmse": 2.3148144580781396,
+    "holdout_mae": 1.7716437120182174,
+    "holdout_bias": 1.0353874138905887,
+    "holdout_r2": 0.90386800721289,
+    "n_estimators": 600,
+    "holdout_rows": 420,
+    "train_rows": 9065
+  },
+  "gust": {
+    "holdout_rmse": 3.8318505869570347,
+    "holdout_mae": 3.064311848140898,
+    "holdout_bias": 2.622498300620488,
+    "holdout_r2": 0.8209772864461876,
+    "n_estimators": 600,
+    "holdout_rows": 420,
+    "train_rows": 9065
+  },
+  "dir_sin": {
+    "holdout_rmse": 0.020178750274765518,
+    "holdout_mae": 0.01375210510344097,
+    "holdout_bias": 0.000973122679913894,
+    "holdout_r2": 0.9993209685025253,
+    "n_estimators": 3000,
+    "holdout_rows": 420,
+    "train_rows": 9065
+  },
+  "dir_cos": {
+    "holdout_rmse": 0.03008129441123949,
+    "holdout_mae": 0.015900144464147566,
+    "holdout_bias": -0.0009349209943409434,
+    "holdout_r2": 0.9970621944068111,
+    "n_estimators": 3000,
+    "holdout_rows": 420,
+    "train_rows": 9065
+  },
+  "direction": {
+    "angular_mae_deg": 0.7456675473167785
+  },
+  "conformal": {
+    "speed": {
+      "conformal_mode": "regime",
+      "q_low": 1.6871013879776,
+      "q_medium": 2.4057700347900397,
+      "q_high": 1.878698886871338,
+      "coverage": 0.6285714285714286,
+      "avg_interval_width": 3.8384731031145365,
+      "calib_rows": 937
+    },
+    "gust": {
+      "conformal_mode": "regime",
+      "q_low": 2.817385549545288,
+      "q_medium": 2.951260528564454,
+      "q_high": 2.871162582397462,
+      "coverage": 0.5428571428571428,
+      "avg_interval_width": 5.725993047986713,
+      "calib_rows": 937
+    }
+  },
+  "lead_duration_minutes": 5.499071196715037
+}

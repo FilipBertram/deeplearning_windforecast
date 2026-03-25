@@ -1,0 +1,8 @@
+{
+  "run_dir": "/Users/filipbertram/Hochschule/Master/Deep Learning/dl_wind_forecast/logs/runs/20260304_223628_Holnis_multihorizon_292ce4",
+  "n_leads": 12,
+  "speed_rmse_mean": 2.348284874304802,
+  "gust_rmse_mean": 4.030825737519192,
+  "speed_mae_mean": 1.7826026391553091,
+  "gust_mae_mean": 3.2097592299194364
+}

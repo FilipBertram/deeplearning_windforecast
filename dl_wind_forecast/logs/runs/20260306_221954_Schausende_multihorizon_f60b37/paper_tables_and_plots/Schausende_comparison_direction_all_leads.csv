@@ -1,0 +1,13 @@
+spot,lead_hours,target,model,rmse,mae,bias,r2,angular_mae_deg,rows
+Schausende,1,direction,XGBoost,,,,,0.8478310208768259,479
+Schausende,2,direction,XGBoost,,,,,0.9108293632352945,476
+Schausende,3,direction,XGBoost,,,,,0.906954245283019,477
+Schausende,4,direction,XGBoost,,,,,0.8920379267782429,478
+Schausende,5,direction,XGBoost,,,,,0.8457695263157886,475
+Schausende,6,direction,XGBoost,,,,,0.9108285042016813,476
+Schausende,7,direction,XGBoost,,,,,0.8954333941299781,477
+Schausende,8,direction,XGBoost,,,,,0.9537725274261603,474
+Schausende,9,direction,XGBoost,,,,,0.9366538505263164,475
+Schausende,10,direction,XGBoost,,,,,0.8964711449579826,476
+Schausende,11,direction,XGBoost,,,,,0.9636130446088795,473
+Schausende,12,direction,XGBoost,,,,,1.0125877679324902,474

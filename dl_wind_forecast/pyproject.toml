@@ -1,0 +1,21 @@
+[project]
+name = "winddl"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "pyarrow",
+  "scikit-learn",
+  "xgboost",
+  "matplotlib",
+  "joblib",
+  "pyyaml",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"

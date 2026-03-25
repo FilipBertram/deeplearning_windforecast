@@ -1,0 +1,8 @@
+{
+  "run_dir": "/Users/filipbertram/Hochschule/Master/Deep Learning/dl_wind_forecast/logs/runs/20260306_221954_Schausende_multihorizon_f60b37",
+  "n_leads": 12,
+  "speed_rmse_mean": 1.2865898355846568,
+  "gust_rmse_mean": 2.5835425938423717,
+  "speed_mae_mean": 0.9207030865096327,
+  "gust_mae_mean": 1.9936493249503497
+}
