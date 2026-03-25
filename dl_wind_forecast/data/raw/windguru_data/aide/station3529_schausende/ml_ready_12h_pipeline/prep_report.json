@@ -1,0 +1,39 @@
+{
+  "station": "station3529_schausende",
+  "horizon_h": 12,
+  "coverage_threshold": 0.45,
+  "keep_models_for_loading": null,
+  "core_shape": [
+    6326,
+    55
+  ],
+  "dropped_all_nan_cols": [],
+  "model_coverage": {
+    "iconeu": 0.9988934555801454,
+    "harmeu": 0.8232690483717989,
+    "gfs": 0.5003161555485299,
+    "icon": 0.5001580777742649,
+    "wrfeuh": 0.4955738223205817,
+    "metno": 0.3676889029402466,
+    "ifs": 0.07793234271261461
+  },
+  "kept_models_after_coverage": [
+    "iconeu",
+    "harmeu",
+    "gfs",
+    "icon",
+    "wrfeuh"
+  ],
+  "dropped_models_after_coverage": [
+    "metno",
+    "ifs"
+  ],
+  "clean_shape": [
+    6326,
+    42
+  ],
+  "final_shape": [
+    6303,
+    26
+  ]
+}

@@ -1,0 +1,1656 @@
+{
+  "dataset_path": "/Users/filipbertram/Hochschule/Master/Deep Learning/dl_wind_forecast/data/processed/station3402_Holnis_1to12/features_1to12_core_clean.parquet",
+  "time_col": "feature_time",
+  "holdout": {
+    "holdout_start_time": "2026-02-10T12:00:00",
+    "holdout_days": 14,
+    "n_feature_times_holdout": 113,
+    "n_rows_holdout": 1356
+  },
+  "walk_forward": {
+    "min_train_days": 60,
+    "val_days": 7,
+    "step_days": 7,
+    "n_folds": 182,
+    "folds": [
+      {
+        "fold": 0,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-08-29T12:00:00",
+        "val_start_time": "2022-08-29T15:00:00",
+        "val_end_time": "2022-09-05T15:00:00",
+        "train_rows": 5772,
+        "val_rows": 684
+      },
+      {
+        "fold": 1,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-09-05T12:00:00",
+        "val_start_time": "2022-09-05T15:00:00",
+        "val_end_time": "2022-09-12T15:00:00",
+        "train_rows": 6444,
+        "val_rows": 684
+      },
+      {
+        "fold": 2,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-09-12T12:00:00",
+        "val_start_time": "2022-09-12T15:00:00",
+        "val_end_time": "2022-09-19T15:00:00",
+        "train_rows": 7116,
+        "val_rows": 684
+      },
+      {
+        "fold": 3,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-09-19T12:00:00",
+        "val_start_time": "2022-09-19T15:00:00",
+        "val_end_time": "2022-09-26T15:00:00",
+        "train_rows": 7788,
+        "val_rows": 684
+      },
+      {
+        "fold": 4,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-09-26T12:00:00",
+        "val_start_time": "2022-09-26T15:00:00",
+        "val_end_time": "2022-10-03T15:00:00",
+        "train_rows": 8460,
+        "val_rows": 684
+      },
+      {
+        "fold": 5,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-10-03T12:00:00",
+        "val_start_time": "2022-10-03T15:00:00",
+        "val_end_time": "2022-10-10T15:00:00",
+        "train_rows": 9132,
+        "val_rows": 684
+      },
+      {
+        "fold": 6,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-10-10T12:00:00",
+        "val_start_time": "2022-10-10T15:00:00",
+        "val_end_time": "2022-10-17T15:00:00",
+        "train_rows": 9804,
+        "val_rows": 684
+      },
+      {
+        "fold": 7,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-10-17T12:00:00",
+        "val_start_time": "2022-10-17T15:00:00",
+        "val_end_time": "2022-10-24T15:00:00",
+        "train_rows": 10476,
+        "val_rows": 684
+      },
+      {
+        "fold": 8,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-10-24T12:00:00",
+        "val_start_time": "2022-10-24T15:00:00",
+        "val_end_time": "2022-10-31T15:00:00",
+        "train_rows": 11148,
+        "val_rows": 684
+      },
+      {
+        "fold": 9,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-10-31T12:00:00",
+        "val_start_time": "2022-10-31T15:00:00",
+        "val_end_time": "2022-11-07T15:00:00",
+        "train_rows": 11820,
+        "val_rows": 672
+      },
+      {
+        "fold": 10,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-11-07T12:00:00",
+        "val_start_time": "2022-11-07T15:00:00",
+        "val_end_time": "2022-11-14T15:00:00",
+        "train_rows": 12480,
+        "val_rows": 684
+      },
+      {
+        "fold": 11,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-11-14T12:00:00",
+        "val_start_time": "2022-11-14T15:00:00",
+        "val_end_time": "2022-11-21T15:00:00",
+        "train_rows": 13152,
+        "val_rows": 684
+      },
+      {
+        "fold": 12,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-11-21T12:00:00",
+        "val_start_time": "2022-11-21T15:00:00",
+        "val_end_time": "2022-11-28T15:00:00",
+        "train_rows": 13824,
+        "val_rows": 684
+      },
+      {
+        "fold": 13,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-11-28T12:00:00",
+        "val_start_time": "2022-11-28T15:00:00",
+        "val_end_time": "2022-12-05T15:00:00",
+        "train_rows": 14496,
+        "val_rows": 684
+      },
+      {
+        "fold": 14,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-12-05T12:00:00",
+        "val_start_time": "2022-12-05T15:00:00",
+        "val_end_time": "2022-12-12T15:00:00",
+        "train_rows": 15168,
+        "val_rows": 684
+      },
+      {
+        "fold": 15,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-12-12T12:00:00",
+        "val_start_time": "2022-12-12T15:00:00",
+        "val_end_time": "2022-12-19T15:00:00",
+        "train_rows": 15840,
+        "val_rows": 684
+      },
+      {
+        "fold": 16,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-12-19T12:00:00",
+        "val_start_time": "2022-12-19T15:00:00",
+        "val_end_time": "2022-12-26T15:00:00",
+        "train_rows": 16512,
+        "val_rows": 684
+      },
+      {
+        "fold": 17,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2022-12-26T12:00:00",
+        "val_start_time": "2022-12-26T15:00:00",
+        "val_end_time": "2023-01-02T15:00:00",
+        "train_rows": 17184,
+        "val_rows": 684
+      },
+      {
+        "fold": 18,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-01-02T12:00:00",
+        "val_start_time": "2023-01-02T15:00:00",
+        "val_end_time": "2023-01-09T15:00:00",
+        "train_rows": 17856,
+        "val_rows": 684
+      },
+      {
+        "fold": 19,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-01-09T12:00:00",
+        "val_start_time": "2023-01-09T15:00:00",
+        "val_end_time": "2023-01-13T06:00:00",
+        "train_rows": 18528,
+        "val_rows": 360
+      },
+      {
+        "fold": 20,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-01-13T06:00:00",
+        "val_start_time": "2023-01-17T06:00:00",
+        "val_end_time": "2023-01-24T06:00:00",
+        "train_rows": 18888,
+        "val_rows": 672
+      },
+      {
+        "fold": 21,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-01-20T06:00:00",
+        "val_start_time": "2023-01-20T09:00:00",
+        "val_end_time": "2023-01-27T09:00:00",
+        "train_rows": 19176,
+        "val_rows": 684
+      },
+      {
+        "fold": 22,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-01-27T06:00:00",
+        "val_start_time": "2023-01-27T09:00:00",
+        "val_end_time": "2023-02-03T09:00:00",
+        "train_rows": 19848,
+        "val_rows": 684
+      },
+      {
+        "fold": 23,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-02-03T06:00:00",
+        "val_start_time": "2023-02-03T09:00:00",
+        "val_end_time": "2023-02-10T09:00:00",
+        "train_rows": 20520,
+        "val_rows": 684
+      },
+      {
+        "fold": 24,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-02-10T06:00:00",
+        "val_start_time": "2023-02-10T09:00:00",
+        "val_end_time": "2023-02-17T09:00:00",
+        "train_rows": 21192,
+        "val_rows": 684
+      },
+      {
+        "fold": 25,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-02-17T06:00:00",
+        "val_start_time": "2023-02-17T09:00:00",
+        "val_end_time": "2023-02-24T09:00:00",
+        "train_rows": 21864,
+        "val_rows": 684
+      },
+      {
+        "fold": 26,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-02-24T06:00:00",
+        "val_start_time": "2023-02-24T09:00:00",
+        "val_end_time": "2023-03-03T09:00:00",
+        "train_rows": 22536,
+        "val_rows": 684
+      },
+      {
+        "fold": 27,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-03-03T06:00:00",
+        "val_start_time": "2023-03-03T09:00:00",
+        "val_end_time": "2023-03-10T09:00:00",
+        "train_rows": 23208,
+        "val_rows": 684
+      },
+      {
+        "fold": 28,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-03-10T06:00:00",
+        "val_start_time": "2023-03-10T09:00:00",
+        "val_end_time": "2023-03-17T09:00:00",
+        "train_rows": 23880,
+        "val_rows": 684
+      },
+      {
+        "fold": 29,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-03-17T06:00:00",
+        "val_start_time": "2023-03-17T09:00:00",
+        "val_end_time": "2023-03-24T09:00:00",
+        "train_rows": 24552,
+        "val_rows": 672
+      },
+      {
+        "fold": 30,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-03-24T06:00:00",
+        "val_start_time": "2023-03-24T09:00:00",
+        "val_end_time": "2023-03-31T09:00:00",
+        "train_rows": 25212,
+        "val_rows": 684
+      },
+      {
+        "fold": 31,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-03-31T06:00:00",
+        "val_start_time": "2023-03-31T09:00:00",
+        "val_end_time": "2023-04-07T09:00:00",
+        "train_rows": 25884,
+        "val_rows": 684
+      },
+      {
+        "fold": 32,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-04-07T06:00:00",
+        "val_start_time": "2023-04-07T09:00:00",
+        "val_end_time": "2023-04-14T09:00:00",
+        "train_rows": 26556,
+        "val_rows": 684
+      },
+      {
+        "fold": 33,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-04-14T06:00:00",
+        "val_start_time": "2023-04-14T09:00:00",
+        "val_end_time": "2023-04-21T09:00:00",
+        "train_rows": 27228,
+        "val_rows": 684
+      },
+      {
+        "fold": 34,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-04-21T06:00:00",
+        "val_start_time": "2023-04-21T09:00:00",
+        "val_end_time": "2023-04-28T09:00:00",
+        "train_rows": 27900,
+        "val_rows": 684
+      },
+      {
+        "fold": 35,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-04-28T06:00:00",
+        "val_start_time": "2023-04-28T09:00:00",
+        "val_end_time": "2023-05-05T09:00:00",
+        "train_rows": 28572,
+        "val_rows": 684
+      },
+      {
+        "fold": 36,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-05-05T06:00:00",
+        "val_start_time": "2023-05-05T09:00:00",
+        "val_end_time": "2023-05-12T09:00:00",
+        "train_rows": 29244,
+        "val_rows": 684
+      },
+      {
+        "fold": 37,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-05-12T06:00:00",
+        "val_start_time": "2023-05-12T09:00:00",
+        "val_end_time": "2023-05-19T09:00:00",
+        "train_rows": 29916,
+        "val_rows": 684
+      },
+      {
+        "fold": 38,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-05-19T06:00:00",
+        "val_start_time": "2023-05-19T09:00:00",
+        "val_end_time": "2023-05-26T09:00:00",
+        "train_rows": 30588,
+        "val_rows": 684
+      },
+      {
+        "fold": 39,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-05-26T06:00:00",
+        "val_start_time": "2023-05-26T09:00:00",
+        "val_end_time": "2023-06-02T09:00:00",
+        "train_rows": 31260,
+        "val_rows": 684
+      },
+      {
+        "fold": 40,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-06-02T06:00:00",
+        "val_start_time": "2023-06-02T09:00:00",
+        "val_end_time": "2023-06-09T09:00:00",
+        "train_rows": 31932,
+        "val_rows": 684
+      },
+      {
+        "fold": 41,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-06-09T06:00:00",
+        "val_start_time": "2023-06-09T09:00:00",
+        "val_end_time": "2023-06-16T09:00:00",
+        "train_rows": 32604,
+        "val_rows": 684
+      },
+      {
+        "fold": 42,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-06-16T06:00:00",
+        "val_start_time": "2023-06-16T09:00:00",
+        "val_end_time": "2023-06-23T09:00:00",
+        "train_rows": 33276,
+        "val_rows": 660
+      },
+      {
+        "fold": 43,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-06-23T06:00:00",
+        "val_start_time": "2023-06-23T09:00:00",
+        "val_end_time": "2023-06-30T09:00:00",
+        "train_rows": 33924,
+        "val_rows": 684
+      },
+      {
+        "fold": 44,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-06-30T06:00:00",
+        "val_start_time": "2023-06-30T09:00:00",
+        "val_end_time": "2023-07-07T09:00:00",
+        "train_rows": 34596,
+        "val_rows": 672
+      },
+      {
+        "fold": 45,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-07-07T06:00:00",
+        "val_start_time": "2023-07-07T09:00:00",
+        "val_end_time": "2023-07-14T09:00:00",
+        "train_rows": 35256,
+        "val_rows": 684
+      },
+      {
+        "fold": 46,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-07-14T06:00:00",
+        "val_start_time": "2023-07-14T09:00:00",
+        "val_end_time": "2023-07-21T09:00:00",
+        "train_rows": 35928,
+        "val_rows": 684
+      },
+      {
+        "fold": 47,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-07-21T06:00:00",
+        "val_start_time": "2023-07-21T09:00:00",
+        "val_end_time": "2023-07-26T06:00:00",
+        "train_rows": 36600,
+        "val_rows": 480
+      },
+      {
+        "fold": 48,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-07-26T06:00:00",
+        "val_start_time": "2023-07-31T12:00:00",
+        "val_end_time": "2023-08-07T12:00:00",
+        "train_rows": 37080,
+        "val_rows": 684
+      },
+      {
+        "fold": 49,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-08-02T06:00:00",
+        "val_start_time": "2023-08-02T09:00:00",
+        "val_end_time": "2023-08-09T09:00:00",
+        "train_rows": 37260,
+        "val_rows": 684
+      },
+      {
+        "fold": 50,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-08-09T06:00:00",
+        "val_start_time": "2023-08-09T09:00:00",
+        "val_end_time": "2023-08-16T09:00:00",
+        "train_rows": 37932,
+        "val_rows": 684
+      },
+      {
+        "fold": 51,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-08-16T06:00:00",
+        "val_start_time": "2023-08-16T09:00:00",
+        "val_end_time": "2023-08-23T09:00:00",
+        "train_rows": 38604,
+        "val_rows": 684
+      },
+      {
+        "fold": 52,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-08-23T06:00:00",
+        "val_start_time": "2023-08-23T09:00:00",
+        "val_end_time": "2023-08-30T09:00:00",
+        "train_rows": 39276,
+        "val_rows": 684
+      },
+      {
+        "fold": 53,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-08-30T06:00:00",
+        "val_start_time": "2023-08-30T09:00:00",
+        "val_end_time": "2023-09-06T09:00:00",
+        "train_rows": 39948,
+        "val_rows": 396
+      },
+      {
+        "fold": 54,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-09-06T06:00:00",
+        "val_start_time": "2023-09-06T09:00:00",
+        "val_end_time": "2023-09-13T09:00:00",
+        "train_rows": 40332,
+        "val_rows": 684
+      },
+      {
+        "fold": 55,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-09-13T06:00:00",
+        "val_start_time": "2023-09-13T09:00:00",
+        "val_end_time": "2023-09-20T09:00:00",
+        "train_rows": 41004,
+        "val_rows": 684
+      },
+      {
+        "fold": 56,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-09-20T06:00:00",
+        "val_start_time": "2023-09-20T09:00:00",
+        "val_end_time": "2023-09-27T09:00:00",
+        "train_rows": 41676,
+        "val_rows": 684
+      },
+      {
+        "fold": 57,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-09-27T06:00:00",
+        "val_start_time": "2023-09-27T09:00:00",
+        "val_end_time": "2023-10-04T09:00:00",
+        "train_rows": 42348,
+        "val_rows": 672
+      },
+      {
+        "fold": 58,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-10-04T06:00:00",
+        "val_start_time": "2023-10-04T09:00:00",
+        "val_end_time": "2023-10-11T09:00:00",
+        "train_rows": 43008,
+        "val_rows": 684
+      },
+      {
+        "fold": 59,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-10-11T06:00:00",
+        "val_start_time": "2023-10-11T09:00:00",
+        "val_end_time": "2023-10-18T09:00:00",
+        "train_rows": 43680,
+        "val_rows": 684
+      },
+      {
+        "fold": 60,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-10-18T06:00:00",
+        "val_start_time": "2023-10-18T09:00:00",
+        "val_end_time": "2023-10-25T09:00:00",
+        "train_rows": 44352,
+        "val_rows": 684
+      },
+      {
+        "fold": 61,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-10-25T06:00:00",
+        "val_start_time": "2023-10-25T09:00:00",
+        "val_end_time": "2023-11-01T09:00:00",
+        "train_rows": 45024,
+        "val_rows": 684
+      },
+      {
+        "fold": 62,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-11-01T06:00:00",
+        "val_start_time": "2023-11-01T09:00:00",
+        "val_end_time": "2023-11-08T09:00:00",
+        "train_rows": 45696,
+        "val_rows": 684
+      },
+      {
+        "fold": 63,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-11-08T06:00:00",
+        "val_start_time": "2023-11-08T09:00:00",
+        "val_end_time": "2023-11-15T09:00:00",
+        "train_rows": 46368,
+        "val_rows": 684
+      },
+      {
+        "fold": 64,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-11-15T06:00:00",
+        "val_start_time": "2023-11-15T09:00:00",
+        "val_end_time": "2023-11-22T09:00:00",
+        "train_rows": 47040,
+        "val_rows": 684
+      },
+      {
+        "fold": 65,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-11-22T06:00:00",
+        "val_start_time": "2023-11-22T09:00:00",
+        "val_end_time": "2023-11-29T09:00:00",
+        "train_rows": 47712,
+        "val_rows": 684
+      },
+      {
+        "fold": 66,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-11-29T06:00:00",
+        "val_start_time": "2023-11-29T09:00:00",
+        "val_end_time": "2023-12-06T09:00:00",
+        "train_rows": 48384,
+        "val_rows": 684
+      },
+      {
+        "fold": 67,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-12-06T06:00:00",
+        "val_start_time": "2023-12-06T09:00:00",
+        "val_end_time": "2023-12-13T09:00:00",
+        "train_rows": 49056,
+        "val_rows": 684
+      },
+      {
+        "fold": 68,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-12-13T06:00:00",
+        "val_start_time": "2023-12-13T09:00:00",
+        "val_end_time": "2023-12-20T09:00:00",
+        "train_rows": 49728,
+        "val_rows": 684
+      },
+      {
+        "fold": 69,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-12-20T06:00:00",
+        "val_start_time": "2023-12-20T09:00:00",
+        "val_end_time": "2023-12-27T09:00:00",
+        "train_rows": 50400,
+        "val_rows": 684
+      },
+      {
+        "fold": 70,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2023-12-27T06:00:00",
+        "val_start_time": "2023-12-27T09:00:00",
+        "val_end_time": "2024-01-03T09:00:00",
+        "train_rows": 51072,
+        "val_rows": 684
+      },
+      {
+        "fold": 71,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-01-03T06:00:00",
+        "val_start_time": "2024-01-03T09:00:00",
+        "val_end_time": "2024-01-10T09:00:00",
+        "train_rows": 51744,
+        "val_rows": 684
+      },
+      {
+        "fold": 72,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-01-10T06:00:00",
+        "val_start_time": "2024-01-10T09:00:00",
+        "val_end_time": "2024-01-17T09:00:00",
+        "train_rows": 52416,
+        "val_rows": 684
+      },
+      {
+        "fold": 73,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-01-17T06:00:00",
+        "val_start_time": "2024-01-17T09:00:00",
+        "val_end_time": "2024-01-24T09:00:00",
+        "train_rows": 53088,
+        "val_rows": 684
+      },
+      {
+        "fold": 74,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-01-24T06:00:00",
+        "val_start_time": "2024-01-24T09:00:00",
+        "val_end_time": "2024-01-31T09:00:00",
+        "train_rows": 53760,
+        "val_rows": 684
+      },
+      {
+        "fold": 75,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-01-31T06:00:00",
+        "val_start_time": "2024-01-31T09:00:00",
+        "val_end_time": "2024-02-07T09:00:00",
+        "train_rows": 54432,
+        "val_rows": 684
+      },
+      {
+        "fold": 76,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-02-07T06:00:00",
+        "val_start_time": "2024-02-07T09:00:00",
+        "val_end_time": "2024-02-14T09:00:00",
+        "train_rows": 55104,
+        "val_rows": 684
+      },
+      {
+        "fold": 77,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-02-14T06:00:00",
+        "val_start_time": "2024-02-14T09:00:00",
+        "val_end_time": "2024-02-21T09:00:00",
+        "train_rows": 55776,
+        "val_rows": 684
+      },
+      {
+        "fold": 78,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-02-21T06:00:00",
+        "val_start_time": "2024-02-21T09:00:00",
+        "val_end_time": "2024-02-28T09:00:00",
+        "train_rows": 56448,
+        "val_rows": 684
+      },
+      {
+        "fold": 79,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-02-28T06:00:00",
+        "val_start_time": "2024-02-28T09:00:00",
+        "val_end_time": "2024-03-06T09:00:00",
+        "train_rows": 57120,
+        "val_rows": 684
+      },
+      {
+        "fold": 80,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-03-06T06:00:00",
+        "val_start_time": "2024-03-06T09:00:00",
+        "val_end_time": "2024-03-13T09:00:00",
+        "train_rows": 57792,
+        "val_rows": 684
+      },
+      {
+        "fold": 81,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-03-13T06:00:00",
+        "val_start_time": "2024-03-13T09:00:00",
+        "val_end_time": "2024-03-20T09:00:00",
+        "train_rows": 58464,
+        "val_rows": 684
+      },
+      {
+        "fold": 82,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-03-20T06:00:00",
+        "val_start_time": "2024-03-20T09:00:00",
+        "val_end_time": "2024-03-27T09:00:00",
+        "train_rows": 59136,
+        "val_rows": 684
+      },
+      {
+        "fold": 83,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-03-27T06:00:00",
+        "val_start_time": "2024-03-27T09:00:00",
+        "val_end_time": "2024-04-03T09:00:00",
+        "train_rows": 59808,
+        "val_rows": 684
+      },
+      {
+        "fold": 84,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-04-03T06:00:00",
+        "val_start_time": "2024-04-03T09:00:00",
+        "val_end_time": "2024-04-10T09:00:00",
+        "train_rows": 60480,
+        "val_rows": 684
+      },
+      {
+        "fold": 85,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-04-10T06:00:00",
+        "val_start_time": "2024-04-10T09:00:00",
+        "val_end_time": "2024-04-17T09:00:00",
+        "train_rows": 61152,
+        "val_rows": 684
+      },
+      {
+        "fold": 86,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-04-17T06:00:00",
+        "val_start_time": "2024-04-17T09:00:00",
+        "val_end_time": "2024-04-24T09:00:00",
+        "train_rows": 61824,
+        "val_rows": 684
+      },
+      {
+        "fold": 87,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-04-24T06:00:00",
+        "val_start_time": "2024-04-24T09:00:00",
+        "val_end_time": "2024-05-01T09:00:00",
+        "train_rows": 62496,
+        "val_rows": 684
+      },
+      {
+        "fold": 88,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-05-01T06:00:00",
+        "val_start_time": "2024-05-01T09:00:00",
+        "val_end_time": "2024-05-08T09:00:00",
+        "train_rows": 63168,
+        "val_rows": 684
+      },
+      {
+        "fold": 89,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-05-08T06:00:00",
+        "val_start_time": "2024-05-08T09:00:00",
+        "val_end_time": "2024-05-15T09:00:00",
+        "train_rows": 63840,
+        "val_rows": 684
+      },
+      {
+        "fold": 90,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-05-15T06:00:00",
+        "val_start_time": "2024-05-15T09:00:00",
+        "val_end_time": "2024-05-22T09:00:00",
+        "train_rows": 64512,
+        "val_rows": 684
+      },
+      {
+        "fold": 91,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-05-22T06:00:00",
+        "val_start_time": "2024-05-22T09:00:00",
+        "val_end_time": "2024-05-29T09:00:00",
+        "train_rows": 65184,
+        "val_rows": 684
+      },
+      {
+        "fold": 92,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-05-29T06:00:00",
+        "val_start_time": "2024-05-29T09:00:00",
+        "val_end_time": "2024-06-05T09:00:00",
+        "train_rows": 65856,
+        "val_rows": 684
+      },
+      {
+        "fold": 93,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-06-05T06:00:00",
+        "val_start_time": "2024-06-05T09:00:00",
+        "val_end_time": "2024-06-12T09:00:00",
+        "train_rows": 66528,
+        "val_rows": 684
+      },
+      {
+        "fold": 94,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-06-12T06:00:00",
+        "val_start_time": "2024-06-12T09:00:00",
+        "val_end_time": "2024-06-19T09:00:00",
+        "train_rows": 67200,
+        "val_rows": 684
+      },
+      {
+        "fold": 95,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-06-19T06:00:00",
+        "val_start_time": "2024-06-19T09:00:00",
+        "val_end_time": "2024-06-26T09:00:00",
+        "train_rows": 67872,
+        "val_rows": 684
+      },
+      {
+        "fold": 96,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-06-26T06:00:00",
+        "val_start_time": "2024-06-26T09:00:00",
+        "val_end_time": "2024-07-03T09:00:00",
+        "train_rows": 68544,
+        "val_rows": 684
+      },
+      {
+        "fold": 97,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-07-03T06:00:00",
+        "val_start_time": "2024-07-03T09:00:00",
+        "val_end_time": "2024-07-10T09:00:00",
+        "train_rows": 69216,
+        "val_rows": 684
+      },
+      {
+        "fold": 98,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-07-10T06:00:00",
+        "val_start_time": "2024-07-10T09:00:00",
+        "val_end_time": "2024-07-17T09:00:00",
+        "train_rows": 69888,
+        "val_rows": 684
+      },
+      {
+        "fold": 99,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-07-17T06:00:00",
+        "val_start_time": "2024-07-17T09:00:00",
+        "val_end_time": "2024-07-24T09:00:00",
+        "train_rows": 70560,
+        "val_rows": 684
+      },
+      {
+        "fold": 100,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-07-24T06:00:00",
+        "val_start_time": "2024-07-24T09:00:00",
+        "val_end_time": "2024-07-31T09:00:00",
+        "train_rows": 71232,
+        "val_rows": 684
+      },
+      {
+        "fold": 101,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-07-31T06:00:00",
+        "val_start_time": "2024-07-31T09:00:00",
+        "val_end_time": "2024-08-07T09:00:00",
+        "train_rows": 71904,
+        "val_rows": 684
+      },
+      {
+        "fold": 102,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-08-07T06:00:00",
+        "val_start_time": "2024-08-07T09:00:00",
+        "val_end_time": "2024-08-14T09:00:00",
+        "train_rows": 72576,
+        "val_rows": 684
+      },
+      {
+        "fold": 103,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-08-14T06:00:00",
+        "val_start_time": "2024-08-14T09:00:00",
+        "val_end_time": "2024-08-21T09:00:00",
+        "train_rows": 73248,
+        "val_rows": 684
+      },
+      {
+        "fold": 104,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-08-21T06:00:00",
+        "val_start_time": "2024-08-21T09:00:00",
+        "val_end_time": "2024-08-28T09:00:00",
+        "train_rows": 73920,
+        "val_rows": 684
+      },
+      {
+        "fold": 105,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-08-28T06:00:00",
+        "val_start_time": "2024-08-28T09:00:00",
+        "val_end_time": "2024-09-04T09:00:00",
+        "train_rows": 74592,
+        "val_rows": 684
+      },
+      {
+        "fold": 106,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-09-04T06:00:00",
+        "val_start_time": "2024-09-04T09:00:00",
+        "val_end_time": "2024-09-11T09:00:00",
+        "train_rows": 75264,
+        "val_rows": 684
+      },
+      {
+        "fold": 107,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-09-11T06:00:00",
+        "val_start_time": "2024-09-11T09:00:00",
+        "val_end_time": "2024-09-18T09:00:00",
+        "train_rows": 75936,
+        "val_rows": 684
+      },
+      {
+        "fold": 108,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-09-18T06:00:00",
+        "val_start_time": "2024-09-18T09:00:00",
+        "val_end_time": "2024-09-25T09:00:00",
+        "train_rows": 76608,
+        "val_rows": 684
+      },
+      {
+        "fold": 109,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-09-25T06:00:00",
+        "val_start_time": "2024-09-25T09:00:00",
+        "val_end_time": "2024-10-02T09:00:00",
+        "train_rows": 77280,
+        "val_rows": 684
+      },
+      {
+        "fold": 110,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-10-02T06:00:00",
+        "val_start_time": "2024-10-02T09:00:00",
+        "val_end_time": "2024-10-09T09:00:00",
+        "train_rows": 77952,
+        "val_rows": 684
+      },
+      {
+        "fold": 111,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-10-09T06:00:00",
+        "val_start_time": "2024-10-09T09:00:00",
+        "val_end_time": "2024-10-16T09:00:00",
+        "train_rows": 78624,
+        "val_rows": 684
+      },
+      {
+        "fold": 112,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-10-16T06:00:00",
+        "val_start_time": "2024-10-16T09:00:00",
+        "val_end_time": "2024-10-23T09:00:00",
+        "train_rows": 79296,
+        "val_rows": 684
+      },
+      {
+        "fold": 113,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-10-23T06:00:00",
+        "val_start_time": "2024-10-23T09:00:00",
+        "val_end_time": "2024-10-30T09:00:00",
+        "train_rows": 79968,
+        "val_rows": 684
+      },
+      {
+        "fold": 114,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-10-30T06:00:00",
+        "val_start_time": "2024-10-30T09:00:00",
+        "val_end_time": "2024-11-06T09:00:00",
+        "train_rows": 80640,
+        "val_rows": 684
+      },
+      {
+        "fold": 115,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-11-06T06:00:00",
+        "val_start_time": "2024-11-06T09:00:00",
+        "val_end_time": "2024-11-13T09:00:00",
+        "train_rows": 81312,
+        "val_rows": 684
+      },
+      {
+        "fold": 116,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-11-13T06:00:00",
+        "val_start_time": "2024-11-13T09:00:00",
+        "val_end_time": "2024-11-20T09:00:00",
+        "train_rows": 81984,
+        "val_rows": 684
+      },
+      {
+        "fold": 117,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-11-20T06:00:00",
+        "val_start_time": "2024-11-20T09:00:00",
+        "val_end_time": "2024-11-27T09:00:00",
+        "train_rows": 82656,
+        "val_rows": 684
+      },
+      {
+        "fold": 118,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-11-27T06:00:00",
+        "val_start_time": "2024-11-27T09:00:00",
+        "val_end_time": "2024-12-04T09:00:00",
+        "train_rows": 83328,
+        "val_rows": 684
+      },
+      {
+        "fold": 119,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-12-04T06:00:00",
+        "val_start_time": "2024-12-04T09:00:00",
+        "val_end_time": "2024-12-11T09:00:00",
+        "train_rows": 84000,
+        "val_rows": 684
+      },
+      {
+        "fold": 120,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-12-11T06:00:00",
+        "val_start_time": "2024-12-11T09:00:00",
+        "val_end_time": "2024-12-18T09:00:00",
+        "train_rows": 84672,
+        "val_rows": 684
+      },
+      {
+        "fold": 121,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-12-18T06:00:00",
+        "val_start_time": "2024-12-18T09:00:00",
+        "val_end_time": "2024-12-25T09:00:00",
+        "train_rows": 85344,
+        "val_rows": 684
+      },
+      {
+        "fold": 122,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2024-12-25T06:00:00",
+        "val_start_time": "2024-12-25T09:00:00",
+        "val_end_time": "2025-01-01T09:00:00",
+        "train_rows": 86016,
+        "val_rows": 684
+      },
+      {
+        "fold": 123,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-01-01T06:00:00",
+        "val_start_time": "2025-01-01T09:00:00",
+        "val_end_time": "2025-01-08T09:00:00",
+        "train_rows": 86688,
+        "val_rows": 684
+      },
+      {
+        "fold": 124,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-01-08T06:00:00",
+        "val_start_time": "2025-01-08T09:00:00",
+        "val_end_time": "2025-01-15T09:00:00",
+        "train_rows": 87360,
+        "val_rows": 684
+      },
+      {
+        "fold": 125,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-01-15T06:00:00",
+        "val_start_time": "2025-01-15T09:00:00",
+        "val_end_time": "2025-01-22T09:00:00",
+        "train_rows": 88032,
+        "val_rows": 684
+      },
+      {
+        "fold": 126,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-01-22T06:00:00",
+        "val_start_time": "2025-01-22T09:00:00",
+        "val_end_time": "2025-01-29T09:00:00",
+        "train_rows": 88704,
+        "val_rows": 684
+      },
+      {
+        "fold": 127,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-01-29T06:00:00",
+        "val_start_time": "2025-01-29T09:00:00",
+        "val_end_time": "2025-02-05T09:00:00",
+        "train_rows": 89376,
+        "val_rows": 684
+      },
+      {
+        "fold": 128,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-02-05T06:00:00",
+        "val_start_time": "2025-02-05T09:00:00",
+        "val_end_time": "2025-02-12T09:00:00",
+        "train_rows": 90048,
+        "val_rows": 684
+      },
+      {
+        "fold": 129,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-02-12T06:00:00",
+        "val_start_time": "2025-02-12T09:00:00",
+        "val_end_time": "2025-02-19T09:00:00",
+        "train_rows": 90720,
+        "val_rows": 684
+      },
+      {
+        "fold": 130,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-02-19T06:00:00",
+        "val_start_time": "2025-02-19T09:00:00",
+        "val_end_time": "2025-02-26T09:00:00",
+        "train_rows": 91392,
+        "val_rows": 684
+      },
+      {
+        "fold": 131,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-02-26T06:00:00",
+        "val_start_time": "2025-02-26T09:00:00",
+        "val_end_time": "2025-03-05T09:00:00",
+        "train_rows": 92064,
+        "val_rows": 684
+      },
+      {
+        "fold": 132,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-03-05T06:00:00",
+        "val_start_time": "2025-03-05T09:00:00",
+        "val_end_time": "2025-03-12T09:00:00",
+        "train_rows": 92736,
+        "val_rows": 684
+      },
+      {
+        "fold": 133,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-03-12T06:00:00",
+        "val_start_time": "2025-03-12T09:00:00",
+        "val_end_time": "2025-03-19T09:00:00",
+        "train_rows": 93408,
+        "val_rows": 684
+      },
+      {
+        "fold": 134,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-03-19T06:00:00",
+        "val_start_time": "2025-03-19T09:00:00",
+        "val_end_time": "2025-03-26T09:00:00",
+        "train_rows": 94080,
+        "val_rows": 684
+      },
+      {
+        "fold": 135,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-03-26T06:00:00",
+        "val_start_time": "2025-03-26T09:00:00",
+        "val_end_time": "2025-04-02T09:00:00",
+        "train_rows": 94752,
+        "val_rows": 684
+      },
+      {
+        "fold": 136,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-04-02T06:00:00",
+        "val_start_time": "2025-04-02T09:00:00",
+        "val_end_time": "2025-04-09T09:00:00",
+        "train_rows": 95424,
+        "val_rows": 684
+      },
+      {
+        "fold": 137,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-04-09T06:00:00",
+        "val_start_time": "2025-04-09T09:00:00",
+        "val_end_time": "2025-04-16T09:00:00",
+        "train_rows": 96096,
+        "val_rows": 684
+      },
+      {
+        "fold": 138,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-04-16T06:00:00",
+        "val_start_time": "2025-04-16T09:00:00",
+        "val_end_time": "2025-04-23T09:00:00",
+        "train_rows": 96768,
+        "val_rows": 684
+      },
+      {
+        "fold": 139,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-04-23T06:00:00",
+        "val_start_time": "2025-04-23T09:00:00",
+        "val_end_time": "2025-04-30T09:00:00",
+        "train_rows": 97440,
+        "val_rows": 684
+      },
+      {
+        "fold": 140,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-04-30T06:00:00",
+        "val_start_time": "2025-04-30T09:00:00",
+        "val_end_time": "2025-05-07T09:00:00",
+        "train_rows": 98112,
+        "val_rows": 684
+      },
+      {
+        "fold": 141,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-05-07T06:00:00",
+        "val_start_time": "2025-05-07T09:00:00",
+        "val_end_time": "2025-05-14T09:00:00",
+        "train_rows": 98784,
+        "val_rows": 684
+      },
+      {
+        "fold": 142,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-05-14T06:00:00",
+        "val_start_time": "2025-05-14T09:00:00",
+        "val_end_time": "2025-05-21T09:00:00",
+        "train_rows": 99456,
+        "val_rows": 684
+      },
+      {
+        "fold": 143,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-05-21T06:00:00",
+        "val_start_time": "2025-05-21T09:00:00",
+        "val_end_time": "2025-05-28T09:00:00",
+        "train_rows": 100128,
+        "val_rows": 684
+      },
+      {
+        "fold": 144,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-05-28T06:00:00",
+        "val_start_time": "2025-05-28T09:00:00",
+        "val_end_time": "2025-06-04T09:00:00",
+        "train_rows": 100800,
+        "val_rows": 684
+      },
+      {
+        "fold": 145,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-06-04T06:00:00",
+        "val_start_time": "2025-06-04T09:00:00",
+        "val_end_time": "2025-06-11T09:00:00",
+        "train_rows": 101472,
+        "val_rows": 684
+      },
+      {
+        "fold": 146,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-06-11T06:00:00",
+        "val_start_time": "2025-06-11T09:00:00",
+        "val_end_time": "2025-06-18T09:00:00",
+        "train_rows": 102144,
+        "val_rows": 684
+      },
+      {
+        "fold": 147,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-06-18T06:00:00",
+        "val_start_time": "2025-06-18T09:00:00",
+        "val_end_time": "2025-06-25T09:00:00",
+        "train_rows": 102816,
+        "val_rows": 684
+      },
+      {
+        "fold": 148,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-06-25T06:00:00",
+        "val_start_time": "2025-06-25T09:00:00",
+        "val_end_time": "2025-07-02T09:00:00",
+        "train_rows": 103488,
+        "val_rows": 684
+      },
+      {
+        "fold": 149,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-07-02T06:00:00",
+        "val_start_time": "2025-07-02T09:00:00",
+        "val_end_time": "2025-07-09T09:00:00",
+        "train_rows": 104160,
+        "val_rows": 684
+      },
+      {
+        "fold": 150,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-07-09T06:00:00",
+        "val_start_time": "2025-07-09T09:00:00",
+        "val_end_time": "2025-07-16T09:00:00",
+        "train_rows": 104832,
+        "val_rows": 684
+      },
+      {
+        "fold": 151,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-07-16T06:00:00",
+        "val_start_time": "2025-07-16T09:00:00",
+        "val_end_time": "2025-07-23T09:00:00",
+        "train_rows": 105504,
+        "val_rows": 684
+      },
+      {
+        "fold": 152,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-07-23T06:00:00",
+        "val_start_time": "2025-07-23T09:00:00",
+        "val_end_time": "2025-07-30T09:00:00",
+        "train_rows": 106176,
+        "val_rows": 684
+      },
+      {
+        "fold": 153,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-07-30T06:00:00",
+        "val_start_time": "2025-07-30T09:00:00",
+        "val_end_time": "2025-08-06T09:00:00",
+        "train_rows": 106848,
+        "val_rows": 684
+      },
+      {
+        "fold": 154,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-08-06T06:00:00",
+        "val_start_time": "2025-08-06T09:00:00",
+        "val_end_time": "2025-08-13T09:00:00",
+        "train_rows": 107520,
+        "val_rows": 684
+      },
+      {
+        "fold": 155,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-08-13T06:00:00",
+        "val_start_time": "2025-08-13T09:00:00",
+        "val_end_time": "2025-08-20T09:00:00",
+        "train_rows": 108192,
+        "val_rows": 684
+      },
+      {
+        "fold": 156,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-08-20T06:00:00",
+        "val_start_time": "2025-08-20T09:00:00",
+        "val_end_time": "2025-08-27T09:00:00",
+        "train_rows": 108864,
+        "val_rows": 684
+      },
+      {
+        "fold": 157,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-08-27T06:00:00",
+        "val_start_time": "2025-08-27T09:00:00",
+        "val_end_time": "2025-09-03T09:00:00",
+        "train_rows": 109536,
+        "val_rows": 684
+      },
+      {
+        "fold": 158,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-09-03T06:00:00",
+        "val_start_time": "2025-09-03T09:00:00",
+        "val_end_time": "2025-09-10T09:00:00",
+        "train_rows": 110208,
+        "val_rows": 684
+      },
+      {
+        "fold": 159,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-09-10T06:00:00",
+        "val_start_time": "2025-09-10T09:00:00",
+        "val_end_time": "2025-09-17T09:00:00",
+        "train_rows": 110880,
+        "val_rows": 684
+      },
+      {
+        "fold": 160,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-09-17T06:00:00",
+        "val_start_time": "2025-09-17T09:00:00",
+        "val_end_time": "2025-09-24T09:00:00",
+        "train_rows": 111552,
+        "val_rows": 684
+      },
+      {
+        "fold": 161,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-09-24T06:00:00",
+        "val_start_time": "2025-09-24T09:00:00",
+        "val_end_time": "2025-10-01T09:00:00",
+        "train_rows": 112224,
+        "val_rows": 684
+      },
+      {
+        "fold": 162,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-10-01T06:00:00",
+        "val_start_time": "2025-10-01T09:00:00",
+        "val_end_time": "2025-10-08T09:00:00",
+        "train_rows": 112896,
+        "val_rows": 684
+      },
+      {
+        "fold": 163,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-10-08T06:00:00",
+        "val_start_time": "2025-10-08T09:00:00",
+        "val_end_time": "2025-10-15T09:00:00",
+        "train_rows": 113568,
+        "val_rows": 684
+      },
+      {
+        "fold": 164,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-10-15T06:00:00",
+        "val_start_time": "2025-10-15T09:00:00",
+        "val_end_time": "2025-10-22T09:00:00",
+        "train_rows": 114240,
+        "val_rows": 684
+      },
+      {
+        "fold": 165,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-10-22T06:00:00",
+        "val_start_time": "2025-10-22T09:00:00",
+        "val_end_time": "2025-10-29T09:00:00",
+        "train_rows": 114912,
+        "val_rows": 684
+      },
+      {
+        "fold": 166,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-10-29T06:00:00",
+        "val_start_time": "2025-10-29T09:00:00",
+        "val_end_time": "2025-11-05T09:00:00",
+        "train_rows": 115584,
+        "val_rows": 684
+      },
+      {
+        "fold": 167,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-11-05T06:00:00",
+        "val_start_time": "2025-11-05T09:00:00",
+        "val_end_time": "2025-11-12T09:00:00",
+        "train_rows": 116256,
+        "val_rows": 684
+      },
+      {
+        "fold": 168,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-11-12T06:00:00",
+        "val_start_time": "2025-11-12T09:00:00",
+        "val_end_time": "2025-11-19T09:00:00",
+        "train_rows": 116928,
+        "val_rows": 684
+      },
+      {
+        "fold": 169,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-11-19T06:00:00",
+        "val_start_time": "2025-11-19T09:00:00",
+        "val_end_time": "2025-11-26T09:00:00",
+        "train_rows": 117600,
+        "val_rows": 684
+      },
+      {
+        "fold": 170,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-11-26T06:00:00",
+        "val_start_time": "2025-11-26T09:00:00",
+        "val_end_time": "2025-12-03T09:00:00",
+        "train_rows": 118272,
+        "val_rows": 684
+      },
+      {
+        "fold": 171,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-12-03T06:00:00",
+        "val_start_time": "2025-12-03T09:00:00",
+        "val_end_time": "2025-12-10T09:00:00",
+        "train_rows": 118944,
+        "val_rows": 684
+      },
+      {
+        "fold": 172,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-12-10T06:00:00",
+        "val_start_time": "2025-12-10T09:00:00",
+        "val_end_time": "2025-12-17T09:00:00",
+        "train_rows": 119616,
+        "val_rows": 684
+      },
+      {
+        "fold": 173,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-12-17T06:00:00",
+        "val_start_time": "2025-12-17T09:00:00",
+        "val_end_time": "2025-12-24T09:00:00",
+        "train_rows": 120288,
+        "val_rows": 684
+      },
+      {
+        "fold": 174,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-12-24T06:00:00",
+        "val_start_time": "2025-12-24T09:00:00",
+        "val_end_time": "2025-12-31T09:00:00",
+        "train_rows": 120960,
+        "val_rows": 684
+      },
+      {
+        "fold": 175,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2025-12-31T06:00:00",
+        "val_start_time": "2025-12-31T09:00:00",
+        "val_end_time": "2026-01-07T09:00:00",
+        "train_rows": 121632,
+        "val_rows": 684
+      },
+      {
+        "fold": 176,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2026-01-07T06:00:00",
+        "val_start_time": "2026-01-07T09:00:00",
+        "val_end_time": "2026-01-14T09:00:00",
+        "train_rows": 122304,
+        "val_rows": 684
+      },
+      {
+        "fold": 177,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2026-01-14T06:00:00",
+        "val_start_time": "2026-01-14T09:00:00",
+        "val_end_time": "2026-01-21T09:00:00",
+        "train_rows": 122976,
+        "val_rows": 684
+      },
+      {
+        "fold": 178,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2026-01-21T06:00:00",
+        "val_start_time": "2026-01-21T09:00:00",
+        "val_end_time": "2026-01-28T09:00:00",
+        "train_rows": 123648,
+        "val_rows": 684
+      },
+      {
+        "fold": 179,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2026-01-28T06:00:00",
+        "val_start_time": "2026-01-28T09:00:00",
+        "val_end_time": "2026-02-04T09:00:00",
+        "train_rows": 124320,
+        "val_rows": 684
+      },
+      {
+        "fold": 180,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2026-02-04T06:00:00",
+        "val_start_time": "2026-02-04T09:00:00",
+        "val_end_time": "2026-02-10T09:00:00",
+        "train_rows": 124992,
+        "val_rows": 588
+      },
+      {
+        "fold": 181,
+        "train_start_time": "2022-06-30T12:00:00",
+        "train_end_time": "2026-02-10T09:00:00",
+        "val_start_time": "2026-02-10T09:00:00",
+        "val_end_time": "2026-02-10T09:00:00",
+        "train_rows": 125580,
+        "val_rows": 12
+      }
+    ]
+  }
+}

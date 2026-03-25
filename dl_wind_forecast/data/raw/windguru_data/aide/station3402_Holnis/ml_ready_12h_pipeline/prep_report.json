@@ -1,0 +1,39 @@
+{
+  "station": "station3402_Holnis",
+  "horizon_h": 12,
+  "coverage_threshold": 0.45,
+  "keep_models_for_loading": null,
+  "core_shape": [
+    9493,
+    55
+  ],
+  "dropped_all_nan_cols": [],
+  "model_coverage": {
+    "iconeu": 0.9984198883387759,
+    "harmeu": 0.7054671863478352,
+    "gfs": 0.5003686927209523,
+    "icon": 0.5002633519435373,
+    "wrfeuh": 0.4956283577372801,
+    "metno": 0.29253133888128097,
+    "ifs": 0.0485620983882861
+  },
+  "kept_models_after_coverage": [
+    "iconeu",
+    "harmeu",
+    "gfs",
+    "icon",
+    "wrfeuh"
+  ],
+  "dropped_models_after_coverage": [
+    "metno",
+    "ifs"
+  ],
+  "clean_shape": [
+    9493,
+    42
+  ],
+  "final_shape": [
+    9492,
+    26
+  ]
+}
